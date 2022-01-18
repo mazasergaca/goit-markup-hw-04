@@ -1,0 +1,20 @@
+.work-section {
+  padding-top: 0;
+  @extend %section;
+}
+.work-conteiner {
+  @extend %conteiner;
+}
+
+.work-section__title {
+  @extend %section-title;
+}
+.work-section__list {
+  display: flex;
+  @extend %list;
+}
+.work-section__item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
